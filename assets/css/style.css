@@ -1,44 +1,72 @@
 body {
     background-color: #202632;
+    font-size: 28px;
     font-family: 'Manrope', sans-serif;
 }
 
 main {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 80%;
 }
 
 .box-dialog {
     position: flex;
     justify-content: center;
     text-align: center;
-    height: 300px;
+    height: 335px;
     width: 550px;
-    margin: 5% auto;
+    box-sizing: border-box;
+    margin: 4em auto;
+    padding: 2%;
     border-radius: 10px;
     vertical-align: middle;
-    box-shadow: 10px 10px 5px black;
+    box-shadow: 10px 10px 200px #000;
     color: #D8EDF2;
     background-color: #313A49;
 }
 
+.title-advice {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 10px;
+    color: #50F296;
+}
+
+.box-dialog img {
+    vertical-align: bottom;
+}
+
+.message {
+    height: 180px;
+    width: 480px;
+    margin: 2% auto;
+    background-color: gold;
+}
+
 .dice {
+    display: flex;
     width: 50px;
     height: 50px;
+    border: none;
     border-radius: 50px;
+    justify-content: center;
+    margin: 5% auto;
     background-color: #53FFAB;
-    align-content: center;
-    vertical-align: bottom;
-    margin: 123px auto;
     }
 
+.dice:hover {
+    box-shadow: 0px 0px 35px 8px #50F296;
+}
+
 .dice img {
-    margin-top: 25%;
+    margin-top: 33%;
 }
 
 .attribution {
     display: flex;
     justify-content: center;
+    font-size: 15px;
     text-align: center;
+    margin: 10% 0px 0px;
     vertical-align: bottom;
 }
